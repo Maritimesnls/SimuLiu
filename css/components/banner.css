@@ -1,0 +1,35 @@
+.banner {
+  /* 1. Set a background image */
+  background-image:linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url(../../images/sl.jpeg);   
+  /* 2. Make the background image cover the banner div */
+	background-size: cover;     
+  /* 3. Center the image */
+	background-position: center;
+  padding: 150px 0px;
+}
+.banner h1 {
+  color: white;
+  font-size: 70px;
+  margin: 90px;
+}
+.banner h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-bottom: 40px;
+  margin: 90px;
+}
+.button-lavender {
+  background-color: rgb(220, 220, 220);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-family:'Lato', sans-serif;
+  text-decoration: none;
+  margin: 90px;
+}
+.button-lavender:hover {
+  background-color: #6B72E1;
+  color: white;
+}

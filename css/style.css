@@ -1,0 +1,19 @@
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/container.css");
+
+body {
+	background: #FFF8F3;
+	color: rgb(50, 50, 50);
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+h1, h2, h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 24px
+	font-weight: lighter;
+	color: #8E0505;
+	font-weight: 500;
+}
